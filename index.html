@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">flakes</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icon">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+      </label>
+
+      <nav class="nav">
+        <a style="--i: 0" href="#">Home</a>
+        <a style="--i: 1" href="#">Services</a>
+        <a style="--i: 2" href="#">Blog</a>
+        <a style="--i: 3" href="#">About</a>
+        <a style="--i: 4" href="#">Contact</a>
+      </nav>
+    </header>
+  </body>
+</html>
